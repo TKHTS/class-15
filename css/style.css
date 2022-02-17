@@ -1,13 +1,30 @@
 * {
   padding: 0;
-  marging: 0;
+  margin: 0;
   border: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body {
-    color: green;
+.navmenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
+
+.navmenu li {
+  padding: 24px;
+}
+
+.navmenu li:hover {
+  background-color: orange;
+  color: whitesmoke;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
