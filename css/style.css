@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.banner {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(orange));
+  background-image: linear-gradient(to bottom, yellow, orange);
+  background-repeat: no-repeat;
+  height: 20vh;
+}
+
 .navmenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,5 +33,50 @@ html {
   background-color: orange;
   color: whitesmoke;
   cursor: pointer;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px 10px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.box {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+  background-color: aqua;
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10%;
+}
+
+.fixed-background {
+  height: 70vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/image1.png);
+}
+
+.scroll-background {
+  height: 40vh;
+}
+
+.active {
+  border-bottom: 5px solid blue;
+  border-top: 5px solid blue;
 }
 /*# sourceMappingURL=style.css.map */
