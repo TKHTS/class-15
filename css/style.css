@@ -33,6 +33,8 @@ html {
   background-color: orange;
   color: whitesmoke;
   cursor: pointer;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .gallery {
