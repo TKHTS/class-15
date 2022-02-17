@@ -3,3 +3,11 @@
   marging: 0;
   border: 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: green;
+}
