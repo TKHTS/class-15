@@ -9,8 +9,8 @@ html {
 }
 
 .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(orange));
-    background-image: linear-gradient(to bottom, yellow, orange);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(aquamarine), to(rgb(145, 235, 145)));
+    background-image: linear-gradient(to right, yellow, rgb(145, 235, 145));
     background-repeat: no-repeat;
     height: 20vh;
 }
@@ -51,8 +51,8 @@ html {
 }
 
 .active {
-    border-bottom: 5px solid purple;
-    border-top: 5px solid purple;
+    border-bottom: 5px solid aqua;
+    border-top: 5px solid aqua;
 }
 
 .left-bar {
