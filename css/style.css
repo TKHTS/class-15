@@ -1,86 +1,78 @@
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .banner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(orange));
-    background-image: linear-gradient(to bottom, yellow, orange);
-    background-repeat: no-repeat;
-    height: 20vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(orange));
+  background-image: linear-gradient(to bottom, yellow, orange);
+  background-repeat: no-repeat;
+  height: 20vh;
 }
 
 .navmenu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    list-style: none;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .navmenu li {
-    padding: 24px;
+  padding: 24px;
 }
 
 .navmenu li:hover {
-    background-color: orange;
-    color: whitesmoke;
-    cursor: pointer;
-    -webkit-transition: background-color 1s;
-    transition: background-color 1s;
-}
-
-.gallery {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 20px 10px;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-}
-
-.box {
-    -ms-flex-preferred-size: 48%;
-    flex-basis: 48%;
-    background-color: aqua;
-    height: 20vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    gap: 10%;
+  background-color: orange;
+  color: whitesmoke;
+  cursor: pointer;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .fixed-background {
-    height: 70vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url(../img/image1.png);
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(../img/image1.png);
 }
 
 .scroll-background {
-    height: 40vh;
+  height: 20vh;
+  background-color: aquamarine;
+  padding: 10%;
 }
 
 .active {
-    border-bottom: 5px solid purple;
-    border-top: 5px solid purple;
+  border-bottom: 5px solid purple;
+  border-top: 5px solid purple;
 }
 
+.left-bar {
+  width: 25%;
+  height: 150vh;
+  background-color: aqua;
+  padding: 12px 5%;
+}
 
+.left-bar .profile-pic {
+  background-image: url(../img/image2.png);
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=style.css.map */
